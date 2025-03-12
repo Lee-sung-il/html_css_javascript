@@ -42,7 +42,7 @@ const movies = [
 ];
 
 // const newMovies = movies.map(function (movie) {
-//   return `${movie.title} - (${movie.score / 10})`;
+//   return `${movie.title} - (${movie.score /   10})`;
 // });
 
 // const newMovies = movies.map((movie) => {
@@ -51,3 +51,16 @@ const movies = [
 const newMovies = movies.map(
   (movie) => `${movie.title} - (${movie.score / 10}`,
 );
+
+console.log('HELLO!!!...');
+setTimeout(() => {
+  console.log('...are you still there?');
+}, 3000);
+
+console.log("GOODBYE");
+
+const id = setInterval(() => {
+  console.log(Math.random());
+},2000);
+
+// clearInterval(id);
